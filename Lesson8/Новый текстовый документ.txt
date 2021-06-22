@@ -1,0 +1,63 @@
+// 1 створити функцію конструктор для об'єктів User з полями id, name, surname , email, phone
+// створити пустий масив, наповнити його 10 об'єктами User
+function User(id, name, surname, email, phone) 
+{
+    this.id=id;
+    this.name = name;
+    this.surname = surname;
+    this.email = email;
+    this.phone = phone;
+
+
+    this.greeting = function (newUs) 
+    {
+        this.newUs=newUs;
+      
+    };
+    
+}
+let arr=[];
+
+//  arr[0]=new User({
+//     id:2, 
+//     imy:'Maria', 
+//     sImy:'Pavlyk', 
+//     em:'mariapavlyk@ukr.net', 
+//     ph:'0935631902'});
+//  arr[1]=new User({
+//         id:3, 
+//         imy:'Maria', 
+//         sImy:'Pavlyk', 
+//         em:'mariapavlyk@ukr.net', 
+//         ph:'0935631902'});
+
+//arr2=new User(3, 'Maria', 'Pavlyk', 'mariapavlyk@ukr.net', '0935631902');
+// arr3=new User(4, 'Maria', 'Pavlyk', 'mariapavlyk@ukr.net', '0935631902');
+// arr4=new User(5, 'Maria', 'Pavlyk', 'mariapavlyk@ukr.net', '0935631902');
+
+arr[0]=new User (2, 'Maria', 'Pavlyk', 'mariapavlyk@ukr.net', '0935631902');
+arr[1]=new User(3, 'Maria', 'Pavlyk', 'mariapavlyk@ukr.net', '0935631902');
+arr[0]=new User (2, 'Maria', 'Pavlyk', 'mariapavlyk@ukr.net', '0935631902');
+arr[1]=new User(3, 'Maria', 'Pavlyk', 'mariapavlyk@ukr.net', '0935631902');
+arr[0]=new User (2, 'Maria', 'Pavlyk', 'mariapavlyk@ukr.net', '0935631902');
+arr[1]=new User(3, 'Maria', 'Pavlyk', 'mariapavlyk@ukr.net', '0935631902');
+arr[0]=new User (2, 'Maria', 'Pavlyk', 'mariapavlyk@ukr.net', '0935631902');
+arr[1]=new User(3, 'Maria', 'Pavlyk', 'mariapavlyk@ukr.net', '0935631902');
+arr[0]=new User (2, 'Maria', 'Pavlyk', 'mariapavlyk@ukr.net', '0935631902');
+arr[1]=new User(3, 'Maria', 'Pavlyk', 'mariapavlyk@ukr.net', '0935631902');
+
+
+// arr.greeting({
+//         id:2, 
+//         imy:'Maria', 
+//         sImy:'Pavlyk', 
+//         em:'mariapavlyk@ukr.net', 
+//         ph:'0935631902'});
+//  arr2.greeting({
+//             id:2, 
+//             imy:'Maria', 
+//             sImy:'Pavlyk', 
+//             em:'mariapavlyk@ukr.net', 
+//             ph:'0935631902'});
+console.log(arr);
+
